@@ -1,4 +1,4 @@
-package com.api_sistema_de_pedidos.service;
+package com.api_sistema_de_pedidos.services;
 
 import com.api_sistema_de_pedidos.entities.Order;
 import com.api_sistema_de_pedidos.repositories.OrderRepository;

@@ -1,7 +1,7 @@
-package com.api_sistema_de_pedidos.resource;
+package com.api_sistema_de_pedidos.resources;
 
 import com.api_sistema_de_pedidos.entities.User;
-import com.api_sistema_de_pedidos.service.UserService;
+import com.api_sistema_de_pedidos.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
