@@ -1,70 +1,72 @@
-# api-sistema-de-pedidos
+# API Sistema de Pedidos
 
-# Project Description:
-A Java application that demonstrates the use of Spring Boot, Hibernate, JPA, Maven, and MySQL to perform CRUD operations on a database.
+## Descrição do Projeto
+Uma aplicação Java que demonstra o uso de Spring Boot, Hibernate, JPA, Maven e MySQL para realizar operações CRUD em um banco de dados.
 
-## This project aims to demonstrate proficiency in:
+## Objetivo
+Este projeto tem como objetivo demonstrar proficiência em:
 
-### Java Development:
+### Desenvolvimento em Java
+- **Programação Orientada a Objetos:**
+  - Encapsulamento
+  - Herança
+  - Polimorfismo
+  - Abstração
+- **Boas Práticas:**
+  - Padrões de projeto
+  - Princípios SOLID
+  - Refatoração
+  - Testes unitários
 
-* Object-Oriented Programming:
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-* Good Practices:
-* Design patterns
-* SOLID principles
-* Refactoring
-* Unit testing
-  
-### 3-Tier Architecture:
+### Arquitetura em 3 Camadas
+- **Camada de Apresentação (Controller)**
+- **Camada de Negócio (Service)**
+- **Camada de Acesso a Dados (Repository)**
 
-* Presentation layer
-* Business layer
-* Data access layer
-* Direct Applications:
+### Aplicações Diretas
 
-### Learning:
+#### Aprendizado
+- Reforçar conceitos e boas práticas em Java
+- Aplicar conhecimento em um projeto do mundo real
+- Desenvolver habilidades de resolução de problemas
 
-* Reinforce Java concepts and best practices
-* Apply knowledge in a real-world project
-* Develop problem-solving skills
-* Applications:
-* Implement CRUD (Create, Read, Update, Delete) functionalities
-* Efficiently manage data
-* Create intuitive user interfaces
-* Project Highlights:
+#### Funcionalidades
+- Implementar operações CRUD (Criar, Ler, Atualizar, Excluir)
+- Gerenciar dados de forma eficiente
+- Criar interfaces de usuário intuitivas
 
-### Focus on good development practices:
+### Destaques do Projeto
+- **Boas práticas de desenvolvimento:**
+  - Código limpo e bem documentado
+  - Testes unitários para garantir a qualidade do código
+  - Arquitetura modular e reutilizável
+- **Aplicabilidade em diferentes cenários:**
+  - O projeto pode ser adaptado para diversas necessidades
+  - Serve como base para projetos mais complexos
+- **Contribuição para a comunidade:**
+  - Compartilhamento do código-fonte para aprendizado e colaboração
 
-* Clean and well-documented code
-* Unit tests to ensure code quality
-* Modular and reusable architecture
-* Applicability in various scenarios:
-* Project can be adapted to different needs
-* Serves as a foundation for more complex projects
-* Contribution to the community:
-* Sharing source code for learning and collaboration
+## Tecnologias Utilizadas
+- **Java 17**  
+- **Spring Boot 3.3.2**  
+- **Hibernate 5.6.10.Final**  
+- **JPA 2.2**  
+- **Maven 3.8.6**  
 
+## Endpoints da API
 
-# Technologies Used:
+- **GET /api/users:** Obter todos os usuários  
+- **POST /api/users:** Criar um novo usuário  
+- **GET /api/users/{id}:** Obter um usuário pelo ID  
+- **PUT /api/users/{id}:** Atualizar um usuário pelo ID  
+- **DELETE /api/users/{id}:** Excluir um usuário pelo ID  
 
-* Java 17  
-* Spring Boot 3.3.2  
-* Hibernate 5.6.10.Final  
-* JPA 2.2  
-* Maven 3.8.6  
+## Testando a API
+Você pode usar o Postman ou qualquer outro cliente REST para testar os endpoints da API.
 
-# API Endpoints:
-
-* GET /api/users: Get all users.  
-* POST /api/users: Create a new user.  
-* GET /api/users/{id}: Get a user by ID.  
-* PUT /api/users/{id}: Update a user by ID.  
-* DELETE /api/users/{id}: Delete a user by ID.
-  
-# Testing the API:
-
-You can use Postman or any other REST client to test the API.
-
+### Exemplos de uso no Postman:
+1. **GET** `/api/users` - Para listar todos os usuários
+2. **POST** `/api/users` - Para criar um novo usuário
+3. **GET** `/api/users/{id}` - Para buscar um usuário específico pelo ID
+4. **PUT** `/api/users/{id}` - Para atualizar os dados de um usuário
+5. **DELETE** `/api/users/{id}` - Para deletar um usuário específico
